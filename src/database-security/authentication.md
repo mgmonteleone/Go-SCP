@@ -9,7 +9,7 @@ If your Go web application only needs to read data and doesn't need to write
 information, create a database user whose permissions are `read`. 
 Always adjust the database user according to your web applications needs.
 
-## MongoDB
+### MongoDB
 
 MongoDB uses role based access control (RBAC) to authorize database users.
 
@@ -29,7 +29,7 @@ When creating your database access, choose a strong password. You can use
 password managers to generate a strong password.
 
 
-## MongoDB
+### MongoDB
 
 MongoDB supports using [X.509 Certificates to authenticate clients](https://docs.mongodb.com/manual/tutorial/configure-x509-client-authentication/). 
 This can provide a more secure manner of authentication when comparted to username/password combinations.
